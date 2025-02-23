@@ -44,10 +44,12 @@ import Myimage from "@/app/components/Myimage"
 export default function page() {
 
     return (
-      <div>
-      <Heading>Hi, I am Arjav</Heading>
-      <Myimage/>  
-      </div>
+        <div>
+        <Heading>Hi, I am Arjav</Heading>
+        <div style={{ width: "400px" }}>
+            <Myimage/>
+        </div>
+        </div>
     )
 
 }

@@ -7,9 +7,10 @@ function Myimage(){
     <SmartImage
     src="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
     alt="Arjav Jain"
-    aspectRatio="16/9"
+    aspectRatio="9/10"
     radius="l"
     objectFit="cover"
+    height={10}
     />
     )
 }
