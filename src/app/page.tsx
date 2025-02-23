@@ -68,7 +68,7 @@ export default function page() {
                           variant="tertiary"
                         />
                         <Button
-                          href="https://github.com/once-ui-system/nextjs-starter"
+                          href="https://github.com/arjav0703"
                           prefixIcon="github"
                           size="s"
                           label="GitHub"
