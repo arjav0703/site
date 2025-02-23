@@ -75,25 +75,9 @@ export default function page() {
                           weight="default"
                           variant="tertiary"
                         />
-                        <Row position="fixed" top="20" right="20">
-                          <StyleOverlay position="fixed" top="8" right="8" style={{height: "calc(100vh - var(--static-space-16))"}} />
-                        </Row>
+
                       </Row>
-                      <Row gap="16" show="s" horizontal="center" paddingRight="24">
-                        <IconButton
-                          href="https://discord.com/invite/5EyAQ4eNdS"
-                          icon="discord"
-                          variant="tertiary"
-                        />
-                        <IconButton
-                          href="https://github.com/once-ui-system/nextjs-starter"
-                          icon="github"
-                          variant="tertiary"
-                        />
-                        <Row position="fixed" top="20" right="20">
-                          <StyleOverlay position="fixed" top="8" right="8" style={{height: "calc(100vh - var(--static-space-16))"}} />
-                        </Row>
-                      </Row>
+                      
                     </Row>
                   </Row>
             <Flex direction="row" mobileDirection="column">
