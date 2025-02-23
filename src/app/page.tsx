@@ -39,6 +39,7 @@ import {
   StyleOverlay,
   Accordion,
   Flex,
+  RevealFx,
 } from "@/once-ui/components";
 import { CodeBlock, MediaUpload } from "@/once-ui/modules";
 import Myimage from "@/app/components/Myimage"
@@ -80,15 +81,21 @@ export default function page() {
                       
                     </Row>
                   </Row>
-            <Flex direction="row" mobileDirection="column">
-                <div style={{ width: "400px" }}>
-                    <Myimage/>
-                </div>
-                <Flex wrap direction="column" padding='24'>
-                <Heading size="xl">Hi, I am Arjav</Heading>
-                <Text>I am a 14 year old High schooler from India. I like to explore new things like a sailor.</Text>
+            <RevealFx
+                speed="medium"
+                delay={0}
+                translateY={3}
+            >
+                <Flex direction="row" mobileDirection="column">
+                    <div style={{ width: "400px" }}>
+                        <Myimage/>
+                    </div>
+                    <Flex wrap direction="column" padding='24'>
+                    <Heading size="xl">Hi, I am Arjav</Heading>
+                    <Text>I am a 14 year old High schooler from India. I like to explore new things like a sailor.</Text>
+                    </Flex>
                 </Flex>
-            </Flex>
+            </RevealFx>
         </Column>
     )
 
