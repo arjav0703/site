@@ -38,18 +38,24 @@ import {
   Row,
   StyleOverlay,
   Accordion,
+  Flex,
 } from "@/once-ui/components";
 import { CodeBlock, MediaUpload } from "@/once-ui/modules";
 import Myimage from "@/app/components/Myimage"
+import { FaLeaf } from "react-icons/fa6";
 export default function page() {
 
     return (
-        <div>
-        <Heading>Hi, I am Arjav</Heading>
-        <div style={{ width: "400px" }}>
-            <Myimage/>
-        </div>
-        </div>
+        <Column fillWidth paddingY="80" paddingX="s" horizontal="center" flex={1}>
+            <Flex>
+            <div style={{ width: "400px" }}>
+                <Myimage/>
+            </div>
+            <Flex>
+            <Heading >Hi, I am Arjav</Heading>
+            </Flex>
+            </Flex>
+        </Column>
     )
 
 }
