@@ -40,12 +40,13 @@ import {
   Accordion,
 } from "@/once-ui/components";
 import { CodeBlock, MediaUpload } from "@/once-ui/modules";
-
+import Myimage from "@/app/components/Myimage"
 export default function page() {
 
     return (
       <div>
-      <Heading>Page</Heading>
+      <Heading>Hi, I am Arjav</Heading>
+      <Myimage/>  
       </div>
     )
 
