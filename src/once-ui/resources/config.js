@@ -16,15 +16,15 @@ const style = {
 
 // default metadata
 const meta = {
-  title: "Once UI - Your Personalized Design System for Next.js",
+  title: "Website",
   description:
-    "An open-source design system and component library for Next.js that emphasizes easy styling and accessibility in UI development.",
+    "Arjav is a 14 year old developer who loves to code and build things and a designer.",
 };
 
 // default open graph data
 const og = {
-  title: "Once UI for Next.js",
-  description: "We let designers code and developers design.",
+  title: "Website",
+  description: "Arjav is a 14 year old developer who loves to code and build things and a designer.",
   type: "website",
   image: "/images/cover.jpg"
 };
@@ -32,17 +32,19 @@ const og = {
 // default schema data
 const schema = {
   logo: "",
-  type: "Organization",
-  name: "One UI",
-  description: "Once UI is an open-source design system and component library for Next.js.",
-  email: "",
+  type: "Individual",
+  name: "Arjav Jain",
+  description: "Arjav is a 14 year old developer who loves to code and build things and a designer.",
+  email: "arjavjain0703@gmail.com",
 };
 
 // social links
 const social = {
-  twitter: "https://www.twitter.com/_onceui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  twitter: "https://x.com/arjavjain0703",
+  linkedin: "https://www.linkedin.com/in/arjav-jain-219476333/",
+  github: "https://github.com/arjavjain0703",
+  instagram : "https://instagram.com/arjavjain0703",
+  discord: "https://discordapp.com/users/1265239979143987273",
 };
 
 export { baseURL, style, meta, og, schema, social };
