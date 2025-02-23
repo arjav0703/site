@@ -47,13 +47,13 @@ export default function page() {
 
     return (
         <Column fillWidth paddingY="80" paddingX="s" horizontal="center" flex={1}>
-            <Flex>
-            <div style={{ width: "400px" }}>
-                <Myimage/>
-            </div>
-            <Flex>
-            <Heading >Hi, I am Arjav</Heading>
-            </Flex>
+            <Flex direction="row" mobileDirection="column">
+                <div style={{ width: "400px" }}>
+                    <Myimage/>
+                </div>
+                <Flex wrap direction="column" padding='24'>
+                <Heading size="xl">Hi, I am Arjav</Heading>
+                </Flex>
             </Flex>
         </Column>
     )
