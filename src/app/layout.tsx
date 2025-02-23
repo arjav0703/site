@@ -35,7 +35,41 @@ const secondary: FontConfig | undefined = undefined;
 const tertiary: FontConfig | undefined = undefined;
 /*
  */
-
+const effects = {
+  mask: {
+    cursor: true,
+    x: 0,
+    y: 0,
+    radius: 75,
+  },
+  gradient: {
+    display: true,
+    x: 50,
+    y: 0,
+    width: 100,
+    height: 100,
+    tilt: 0,
+    colorStart: "brand-background-strong",
+    colorEnd: "static-transparent",
+    opacity: 50,
+  },
+  dots: {
+    display: true,
+    size: 2,
+    color: "brand-on-background-weak",
+    opacity: 20,
+  },
+  lines: {
+    display: false,
+    color: "neutral-alpha-weak",
+    opacity: 100,
+  },
+  grid: {
+    display: false,
+    color: "neutral-alpha-weak",
+    opacity: 100,
+  },
+};
 export async function generateMetadata(): Promise<Metadata> {
   const host = (await headers()).get("host");
   const metadataBase = host ? new URL(`https://${host}`) : undefined;
@@ -129,9 +163,10 @@ export default function RootLayout({
           <Background
             position="absolute"
             mask={{
-              x: 100,
-              y: 0,
-              radius: 100,
+              cursor: effects.mask.cursor,
+              x: effects.mask.x,
+              y: effects.mask.y,
+              radius: effects.mask.radius,
             }}
             gradient={{
               display: true,
