@@ -20,7 +20,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'aliceoseman.com',
+        hostname: 'cdn2.penguin.com.au',
       },
       {
         protocol: 'https',
