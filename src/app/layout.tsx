@@ -126,32 +126,63 @@ export default function RootLayout({
       </head>
       <ToastProvider>
         <Column as="body" fillWidth  margin="0" padding="0">
-          <Background
-            position="absolute"
-            mask={{
-              x: 100,
-              y: 0,
-              radius: 100,
-            }}
-            gradient={{
-              display: true,
-              x: 100,
-              y: 60,
-              width: 70,
-              height: 50,
-              tilt: -40,
-              opacity: 90,
-              colorStart: "accent-background-strong",
-              colorEnd: "page-background",
-            }}
-            grid={{
-              display: true,
-              opacity: 100,
-              width: "0.25rem",
-              color: "neutral-alpha-medium",
-              height: "0.25rem",
-            }}
-          />
+                    <Background
+                      mask={{
+                        x: 0,
+                        y: 48,
+                      }}
+                      position="absolute"
+                      grid={{
+                        display: true,
+                        width: "0.25rem",
+                        color: "neutral-alpha-medium",
+                        height: "0.25rem",
+                      }}
+                    />
+                    <Background
+                      mask={{
+                        x: 80,
+                        y: 0,
+                        radius: 100,
+                      }}
+                      position="absolute"
+                      gradient={{
+                        display: true,
+                        tilt: -35,
+                        height: 50,
+                        width: 75,
+                        x: 100,
+                        y: 40,
+                        colorStart: "accent-solid-medium",
+                        colorEnd: "static-transparent",
+                      }}
+                    />
+                    <Background
+                      mask={{
+                        x: 100,
+                        y: 0,
+                        radius: 100,
+                      }}
+                      position="absolute"
+                      gradient={{
+                        display: true,
+                        opacity: 100,
+                        tilt: -35,
+                        height: 20,
+                        width: 120,
+                        x: 120,
+                        y: 35,
+                        colorStart: "brand-solid-strong",
+                        colorEnd: "static-transparent",
+                      }}
+                      grid={{
+                        display: true,
+                        opacity: 100,
+                        width: "0.25rem",
+                        color: "neutral-alpha-medium",
+                        height: "0.25rem",
+                      }}
+                    />
           {children}
         </Column>
       </ToastProvider>
