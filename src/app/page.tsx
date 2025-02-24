@@ -47,6 +47,7 @@ import { FaLeaf } from "react-icons/fa6";
 import Link from "next/link";
 import Myholofx from "@/app/components/Myholofx";
 import Mybadge from "./components/Mybadge";
+import Mybooks from "./components/Mybooks";
 
 export default function page() {
 
@@ -105,6 +106,8 @@ export default function page() {
                     </Flex>
                 </Flex>
             </RevealFx>
+            <Mybooks/>
+            
         </Column>
     )
 

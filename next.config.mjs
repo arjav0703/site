@@ -9,12 +9,26 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'cdn.hack.pet',
-        //port: '',
-        //pathname: '/account123/**',
-        //search: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.hackclubber.dev',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cloud-mglnk9hvm-hack-club-bot.vercel.app',
+      },
+      {
+        protocol: 'https',
+        hostname: 'aliceoseman.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.kobo.com',
       },
     ],
   },
 };
 
 export default nextConfig;
+
