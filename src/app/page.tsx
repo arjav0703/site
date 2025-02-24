@@ -46,45 +46,14 @@ import Link from "next/link";
 import Myholofx from "@/app/components/Myholofx";
 import Mybadge from "./components/Mybadge";
 import Mybooks from "./components/Mybooks";
+import Mynav from "./components/Mynav";
 
 export default function page() {
 
 
     return (
         <Column fillWidth paddingY="80" horizontal="center" flex={1}>
-            <Row position="fixed" top="0" fillWidth horizontal="center" zIndex={3}>
-                    <Row
-                      data-border="rounded"
-                      horizontal="space-between"
-                      maxWidth="l"
-                      paddingRight="64"
-                      paddingLeft="32"
-                      paddingY="20"
-                    >
-                      <Link href={'https://jain.arjav.tech'}><Text>Arjav Jain</Text></Link>
-                      <Row gap="12" hide="s">
-                        <Button
-                          href="https://vidisha.hackclub.com"
-                          size="s"
-                          label="Club"
-                          prefixIcon="HiOutlineUserGroup"
-                          weight="default"
-                          variant="tertiary"
-                        />
-                        <Button
-                          href="https://github.com/arjav0703"
-                          prefixIcon="github"
-                          size="s"
-                          label="GitHub"
-                          weight="default"
-                          variant="tertiary"
-                        />
-
-                      </Row>
-                      
-                    </Row>
-              </Row>
-
+            <Mynav/>
 
             <RevealFx
                 speed="medium"
