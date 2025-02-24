@@ -1,19 +1,43 @@
-import { SmartImage, Text, Column, HoloFx, Fade, Row , Flex, TiltFx} from "@/once-ui/components";
+import { SmartImage, Text, Column, HoloFx, Fade, Row , Flex, TiltFx, Background} from "@/once-ui/components";
 import React from "react";
-import Myimage from "./Myimage";
+//import Myimage from "./Myimage";
+
+
+const book1 = {
+    name:"What's your Dream",
+    photo:'https://cdn.kobo.com/book-images/387d7ca7-e849-4116-bfc1-67a6bd362ab1/1200/1200/False/what-s-your-dream-1.jpg'
+}
+
+const book2 = {
+    name:'Atomic Habits',
+    photo: 'https://cdn2.penguin.com.au/covers/original/9781473565425.jpg'
+}
 
 function Mybooks(){
     return(
         
-        <Column gap="16" marginY="64" >
+        <Column 
+            gap="16"
+            marginY="80"
+            border="neutral-alpha-weak"
+            paddingY="32"
+            paddingX="80"
+            background="neutral-alpha-weak"
+            //solid="neutral-weak"
+            radius="l"
+            shadow="xl"
+        >  
             <Row>
                 <Text variant="display-default-xs">Books I am reading in present</Text>
             </Row>
 
-            <Row gap="24">
+            <Row 
+                gap="24"
+                mobileDirection="column"                
+            >
             <div style={{ width: "110px" }}>
                 <HoloFx
-                    border="brand-alpha-weak"
+                    border="neutral-alpha-weak"
                     position="relative"
                     maxWidth={24}
                     aspectRatio={0.75}
@@ -33,7 +57,7 @@ function Mybooks(){
                     }}
                     >
                         <SmartImage
-                            src="https://cdn.kobo.com/book-images/387d7ca7-e849-4116-bfc1-67a6bd362ab1/1200/1200/False/what-s-your-dream-1.jpg"
+                            src={book1.photo}
                             alt="What's your Dream"
                             aspectRatio="16/9"
                             radius="l"
@@ -54,14 +78,14 @@ function Mybooks(){
                         paddingLeft="8"
                         textVariant="body-default-xs"
                     >
-                        What's Your Dream
+                        {book1.name}
                     </Fade>
             </HoloFx>
             </div>
             
             <div style={{ width: "110px" }}>
                 <HoloFx
-                    border="brand-alpha-weak"
+                    border="neutral-alpha-weak"
                     position="relative"
                     maxWidth={24}
                     aspectRatio={0.75}
@@ -101,7 +125,7 @@ function Mybooks(){
                         paddingBottom="12"
                         textVariant="body-default-xs"
                     >
-                        Atomic Habits
+                        {book2.name}
                     </Fade>
             </HoloFx>
             </div>

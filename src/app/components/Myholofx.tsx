@@ -8,7 +8,7 @@ function Myholofx(){
     return(
  
         <HoloFx
-        border="brand-alpha-medium"
+        border="neutral-alpha-medium"
         position="relative"
         maxWidth={24}
         aspectRatio={0.75}
