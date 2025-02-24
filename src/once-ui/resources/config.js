@@ -1,4 +1,4 @@
-const baseURL = "demo.once-ui.com";
+const baseURL = "arjav.tech";
 
 // default customization applied to the HTML in the main layout.tsx
 const style = {

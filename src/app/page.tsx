@@ -90,6 +90,7 @@ export default function page() {
                 speed="medium"
                 delay={0}
                 translateY={3}
+                marginTop="80"
             >
                 <Flex direction="row" mobileDirection="column">
                     <div style={{ width: "400px" }}>

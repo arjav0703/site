@@ -26,7 +26,21 @@ function Mybooks(){
             //solid="neutral-weak"
             radius="l"
             shadow="xl"
-        >  
+            position="relative"
+        >
+            <Background
+                mask={{
+                    x: 0,
+                    y: 0,
+                }}
+                position="absolute"
+                grid={{
+                    display: true,
+                    width: "0.25rem",
+                    color: "brand-alpha-strong",
+                    height: "0.25rem",
+                }}
+                      />  
             <Row>
                 <Text variant="display-default-xs">Books I am reading in present</Text>
             </Row>
