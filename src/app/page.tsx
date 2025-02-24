@@ -50,7 +50,6 @@ import Mynav from "./components/Mynav";
 
 export default function page() {
 
-
     return (
         <Column fillWidth paddingY="80" horizontal="center" flex={1}>
             <Mynav/>

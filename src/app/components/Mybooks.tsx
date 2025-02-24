@@ -29,24 +29,35 @@ function Mybooks(){
             position="relative"
         >
             <Background
-                mask={{
-                    x: 0,
-                    y: 0,
-                }}
-                position="absolute"
-                grid={{
-                    display: true,
-                    width: "0.25rem",
-                    color: "brand-alpha-strong",
-                    height: "0.25rem",
-                }}
-                      />  
+            mask={{
+                cursor: true,
+            }}
+            dots={{
+                display: true,
+                opacity: 40,
+                color: "neutral-solid-strong",
+                size: "32",
+            }}
+            fill
+            position="absolute"
+            gradient={{
+                display: true,
+                opacity: 100,
+                tilt: 0,
+                height: 200,
+                width: 200,
+                x: 10,
+                y: 10,
+                colorStart: "brand-alpha-strong",
+                colorEnd: "brand-background-weak",
+            }}
+            />
             <Row>
                 <Text variant="display-default-xs">Books I am reading in present</Text>
             </Row>
 
             <Row 
-                gap="24"
+                gap="32"
                 mobileDirection="column"                
             >
             <div style={{ width: "110px" }}>
