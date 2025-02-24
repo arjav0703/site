@@ -51,7 +51,7 @@ export default function page() {
 
 
     return (
-        <Column fillWidth paddingY="80" paddingX="s" horizontal="center" flex={1}>
+        <Column fillWidth paddingY="80" horizontal="center" flex={1}>
             <Row position="fixed" top="0" fillWidth horizontal="center" zIndex={3}>
                     <Row
                       data-border="rounded"
@@ -83,7 +83,7 @@ export default function page() {
                       </Row>
                       
                     </Row>
-                  </Row>
+              </Row>
 
 
             <RevealFx
