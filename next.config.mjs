@@ -24,7 +24,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'cdn.kobo.com',
+        hostname: 'cloud-1qoy5372h-hack-club-bot.vercel.app',
       },
     ],
   },

@@ -132,12 +132,7 @@ export default function RootLayout({
                         y: 48,
                       }}
                       position="absolute"
-                      grid={{
-                        display: true,
-                        width: "0.25rem",
-                        color: "neutral-alpha-medium",
-                        height: "0.25rem",
-                      }}
+  
                     />
                     <Background
                       mask={{
@@ -175,13 +170,7 @@ export default function RootLayout({
                         colorStart: "brand-solid-strong",
                         colorEnd: "static-transparent",
                       }}
-                      grid={{
-                        display: true,
-                        opacity: 100,
-                        width: "0.25rem",
-                        color: "neutral-alpha-medium",
-                        height: "0.25rem",
-                      }}
+
                     />
           {children}
         </Column>

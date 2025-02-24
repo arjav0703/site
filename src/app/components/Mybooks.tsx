@@ -5,7 +5,7 @@ import React from "react";
 
 const book1 = {
     name:"What's your Dream",
-    photo:'https://cdn.kobo.com/book-images/387d7ca7-e849-4116-bfc1-67a6bd362ab1/1200/1200/False/what-s-your-dream-1.jpg'
+    photo:'https://cloud-1qoy5372h-hack-club-bot.vercel.app/09781473565425.jpg'
 }
 
 const book2 = {
