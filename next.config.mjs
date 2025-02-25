@@ -24,7 +24,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'cloud-1qoy5372h-hack-club-bot.vercel.app',
+        hostname: 'm.media-amazon.com',
       },
     ],
   },

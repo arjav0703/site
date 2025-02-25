@@ -47,6 +47,7 @@ import Myholofx from "@/app/components/Myholofx";
 import Mybadge from "./components/Mybadge";
 import Mybooks from "./components/Mybooks";
 import Mynav from "./components/Mynav";
+import Myimage from "./components/Myimage";
 
 export default function page() {
 
@@ -62,7 +63,7 @@ export default function page() {
             >
                 <Flex direction="row" mobileDirection="column">
                     <div style={{ width: "400px" }}>
-                        <Myholofx/>
+                        <Myimage/>
                     </div>
                     
                     <Flex wrap direction="column" padding='24'>
