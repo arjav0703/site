@@ -10,6 +10,7 @@ import { Background, Column, Flex, ToastProvider } from "@/once-ui/components";
 
 import { Inter } from "next/font/google";
 import { Roboto_Mono } from "next/font/google";
+import Mynav from "./components/Mynav";
 
 const primary = Inter({
   variable: "--font-primary",
@@ -126,13 +127,19 @@ export default function RootLayout({
       </head>
       <ToastProvider>
         <Column as="body" fillWidth  margin="0" padding="0">
+                    
                     <Background
                       mask={{
                         x: 0,
                         y: 48,
                       }}
                       position="absolute"
-  
+                      grid={{
+                        display: true,
+                        width: "0.25rem",
+                        color: "neutral-alpha-medium",
+                        height: "0.25rem",
+                      }}
                     />
                     <Background
                       mask={{
@@ -169,6 +176,13 @@ export default function RootLayout({
                         y: 35,
                         colorStart: "brand-solid-strong",
                         colorEnd: "static-transparent",
+                        
+                      }}
+                      grid={{
+                        display: true,
+                        width: "0.25rem",
+                        color: "neutral-alpha-medium",
+                        height: "0.25rem",
                       }}
 
                     />

@@ -5,7 +5,7 @@ import React from "react";
 function Mynav(){
     return(
  
-        <Row position="fixed" top="0" fillWidth horizontal="center" zIndex={3}>
+        <Row position="fixed" top="0" fillWidth horizontal="center" zIndex={3} background="accent-alpha-medium">
         <Row
           data-border="rounded"
           horizontal="space-between"
@@ -20,9 +20,10 @@ function Mynav(){
               href="https://vidisha.hackclub.com"
               size="s"
               label="Club"
-              prefixIcon="HiOutlineUserGroup"
+              prefixIcon="person"
               weight="default"
               variant="tertiary"
+              
             />
             <Button
               href="https://github.com/arjav0703"

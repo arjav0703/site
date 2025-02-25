@@ -53,7 +53,7 @@ function Mybooks(){
             }}
             />
             <Row>
-                <Text variant="display-default-xs">Books I am reading in present</Text>
+                <Text variant="display-default-xs" onSolid="brand-strong" >Books I am reading in present</Text>
             </Row>
 
             <Row 
