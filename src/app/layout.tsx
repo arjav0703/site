@@ -137,7 +137,7 @@ export default function RootLayout({
                       grid={{
                         display: true,
                         width: "0.25rem",
-                        color: "neutral-alpha-medium",
+                        color: "neutral-alpha-weak",
                         height: "0.25rem",
                       }}
                     />
@@ -153,39 +153,15 @@ export default function RootLayout({
                         tilt: -35,
                         height: 50,
                         width: 75,
-                        x: 100,
+                        x: 80,
                         y: 40,
-                        colorStart: "accent-solid-medium",
+                        colorStart: "accent-solid-weak",
                         colorEnd: "static-transparent",
                       }}
                     />
-                    <Background
-                      mask={{
-                        x: 100,
-                        y: 0,
-                        radius: 100,
-                      }}
-                      position="absolute"
-                      gradient={{
-                        display: true,
-                        opacity: 100,
-                        tilt: -35,
-                        height: 20,
-                        width: 120,
-                        x: 120,
-                        y: 35,
-                        colorStart: "brand-solid-strong",
-                        colorEnd: "static-transparent",
-                        
-                      }}
-                      grid={{
-                        display: true,
-                        width: "0.25rem",
-                        color: "neutral-alpha-medium",
-                        height: "0.25rem",
-                      }}
+      
 
-                    />
+                    
           {children}
         </Column>
       </ToastProvider>

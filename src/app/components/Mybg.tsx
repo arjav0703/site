@@ -51,7 +51,7 @@ function Mybg(){
                       grid={{
                         display: true,
                         width: "0.25rem",
-                        color: "neutral-alpha-medium",
+                        color: "neutral-alpha-strong",
                         height: "0.25rem",
                       }}
 
